@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/FrontStyle.CSS">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>The Girl on the train</title>
+</head>
+<body>
+        <!-- navigation bar -->
+        <div class="landingnav">
+          <nav>
+              <ul>
+                <li class="center"><a href="#"></i>Bookworms</a> <i class='bx bxs-user'></i></li>
+               
+              </ul>
+            </nav>
+        </div>
+          <div>
+            <p class="redinggioones">Romance Book</p>
+          </div>
+
+          <!-- next div for book ra tesko content -->
+          <div class="giread" onclick="togglePDF()">
+            <img class="giaeadimg" src="../pictures/The_Girl_On_The_Train_ Paula.jpg" alt="The Girl on the train">
+            <p class="giparg">"Rachel catches the same commuter train every morning. She knows it will wait at the same signal each time, overlooking a row of back gardens. She’s even started to feel like she knows the people who live in one of the houses. “Jess and Jason,” she calls them."</p>
+            
+            <a href="Thriller.html"><button class="gikoreturn">Return</button></a>
+
+          </div>
+
+
+          <!-- PDF ko ho hai -->
+          
+          <div class="textra2" id="pdfObject">
+            <object data="../Pdf/The Girl on the Train.pdf" type="application/pdf" width="100%" height="655px"></object>
+          </div> 
+</body>
+<!-- js -->
+<script>
+  function togglePDF() {
+    var pdfObject = document.getElementById("pdfObject");
+    if (pdfObject.style.display === "none") {
+      pdfObject.style.display = "block";
+    } else {
+      pdfObject.style.display = "none";
+    }
+  }
+  </script>
+</html>

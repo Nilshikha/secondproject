@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/FrontStyle.CSS">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Slow burning fire</title>
+</head>
+<body>
+        <!-- navigation bar -->
+        <div class="landingnav">
+          <nav>
+              <ul>
+                <li class="center"><a href="#"></i>Bookworms</a> <i class='bx bxs-user'></i></li>
+               
+              </ul>
+            </nav>
+        </div>
+    
+          <div>
+            <p class="redingsloones">Romance Book</p>
+          </div>
+
+          <!-- next div for book ra tesko content -->
+          <div class="slread" onclick="togglePDF()">
+            <img class="slaeadimg" src="../pictures/A slow burning fire book paula hawkins.jpg" alt="Slow burning fire">
+            <p class="slparg">"When a young man is found gruesomely murdered in a London houseboat, it triggers questions about three women who knew him. Laura is the troubled one-night-stand last seen in the victim’s home. Carla is his grief-stricken aunt, already mourning the recent death of yet another family member. And Miriam is the nosy neighbor clearly keeping secrets from the police."</p>
+
+            <a href="Thriller.html"><button class="slkoreturn">Return</button></a>
+
+          </div>
+
+          <!-- PDF ko ho hai -->
+          
+          <div class="textra3" id="pdfObject">
+            <object data="../Pdf/The Girl on the Train.pdf" type="application/pdf" width="100%" height="655px"></object>
+          </div>
+</body>
+<!-- js -->
+<script>
+  function togglePDF() {
+    var pdfObject = document.getElementById("pdfObject");
+    if (pdfObject.style.display === "none") {
+      pdfObject.style.display = "block";
+    } else {
+      pdfObject.style.display = "none";
+    }
+  }
+  </script>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/FrontStyle.CSS">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Into the water</title>
+</head>
+<body>
+        <!-- navigation bar -->
+
+        <div class="landingnav">
+          <nav>
+              <ul>
+                <li class="center"><a href="#"></i>Bookworms</a> <i class='bx bxs-user'></i></li>
+               
+              </ul>
+            </nav>
+        </div>
+    
+          <div>
+            <p class="redingwaoones">Romance Book</p>
+          </div>
+
+          <!-- next div for book ra tesko content -->
+
+          <div class="waread" onclick="togglePDF()">
+            <img class="waaeadimg" src="../pictures/into the water Paula.jpg" alt="Into the water">
+            <p class="waparg">"Into the Water is a thriller novel by British author Paula Hawkins. It is Hawkin’s second full-length thriller following the success of The Girl on the Train. A single mother turns up dead at the bottom of the river that runs through town. Earlier in the summer, a vulnerable teenage girl met the same fate. They are not the first women lost to these dark waters, but their deaths disturb the river and its history, dredging up secrets long submerged."</p>
+           
+           <a href="Thriller.html"><button class="wakoreturn">Return</button></a>
+
+          </div>
+
+          <!-- PDF ko ho hai -->
+          
+          <div class="textra1" id="pdfObject">
+            <object data="../Pdf/Into The Water.pdf" type="application/pdf" width="100%" height="655px"></object>
+          </div>
+</body>
+<!-- js -->
+<script>
+  function togglePDF() {
+    var pdfObject = document.getElementById("pdfObject");
+    if (pdfObject.style.display === "none") {
+      pdfObject.style.display = "block";
+    } else {
+      pdfObject.style.display = "none";
+    }
+  }
+  </script>
+</html>

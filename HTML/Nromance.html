@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/FrontStyle.CSS">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Novemember9 ko reading page</title>
+</head>
+<body>
+        <!-- navigation bar -->
+        <div class="landingnav">
+          <nav>
+              <ul>
+                <li class="center"><a href="#"></i>Bookworms</a> <i class='bx bxs-user'></i></li>
+               
+              </ul>
+            </nav>
+        </div>
+    
+          <div>
+            <p class="redingNooones">Romance Book</p>
+          </div>
+
+          <!-- next div for book ra tesko content -->
+          <div class="Novread" onclick="togglePDF()">
+            <img class="naeadimg" src="../pictures/Novemember 9 collen hoover.jpg" alt="Novemember9">
+            <p class="nparg">"Fallon meets Ben, an aspiring novelist, the day before her scheduled cross-country move. Their untimely attraction leads them to spend Fallon’s last day in Los Angeles together, and her eventful life becomes the creative inspiration Ben has always sought for his novel. Over time and amidst the various relationships and tribulations of their own separate lives, they continue to meet on the same date every year. "</p>
+            
+            <a href="Romance.html"><button class="nkoreturn">Return</button></a>
+
+          </div>
+
+          <!-- PDF ko ho hai -->
+          
+          <div class="nextra2" id="pdfObject">
+            <object data="../Pdf/November 9.pdf" type="application/pdf" width="100%" height="655px"></object>
+          </div>
+</body>
+<!-- js -->
+<script>
+  function togglePDF() {
+    var pdfObject = document.getElementById("pdfObject");
+    if (pdfObject.style.display === "none") {
+      pdfObject.style.display = "block";
+    } else {
+      pdfObject.style.display = "none";
+    }
+  }
+  </script>
+</html>

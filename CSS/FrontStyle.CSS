@@ -1,0 +1,1211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: #BBCBB1; 
+    justify-content: space-around ;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 900;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li a, .Navigationbar li a{
+    position: absolute;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.backgroundimg{
+    width: 100%;
+    height: calc(100vh - 55px);
+    justify-content: center;
+}
+
+.backgroundimg img{
+    width: 100%;
+    height: 100%;
+}
+
+.parg{
+    display: flex;
+    margin-top: -9%;
+    background-color: #c9d3c44d;
+    width: 30%;
+    justify-content: space-between;
+    text-align: justify;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.readmorea{
+    margin-top: 200px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.readmorea a{
+    display: inline-block;
+    height: 40px;
+    width: 120px;
+    background: #D6C6A0;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-left: 0px;
+    margin-top: -600px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+
+.content{
+    position: absolute;
+    top: 50%;
+}
+
+/* for Loggin */
+.loggg{
+    padding: 0 40px;
+    background-color: #DFE6DA   ;
+	display: flex; 
+	text-align: center;
+	align-items: center;
+	justify-content: space-around;
+	width: 40%;
+	margin-left: 400px;
+	height: 40vh;
+    border-radius: 10px;
+    
+}
+.login{
+    
+    height: 130px;
+    left: 170px;
+    align-items: right;
+    position: relative;
+}
+
+
+/* for Signup */
+.Signup h2{
+    align-content: center;
+}
+.Signup{
+    padding: 0 40px;
+    background-color: #DFE6DA   ;
+	display: flex; 
+	text-align: center;
+	align-items: center;
+	justify-content: space-around;
+	width: 40%;
+	margin-left: 400px;
+	height: 40vh;
+    border-radius: 10px;
+    
+}
+.sigup{
+    
+    height: 130px;
+    left: 170px;
+    align-items: right;
+    position: relative;
+}
+
+
+/*  Categories ma raheko Fantacy  */
+.fantacy{
+    background-color: #efb063b3;
+    height: 350px;
+    width: 500px;
+    margin-left: 20px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    padding: 0;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+h2{
+    text-align: center;  
+}
+
+/* img of harry */
+.harrykoimg{
+    height: 5%;
+    width: 30%;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    margin-left: 5%;
+    border-radius: 10px;
+}
+
+/* harry ko long paragraph */
+.harrykoprg{
+    margin-left: 45%;
+    background-color: #b9c6b24d;
+    width: 50%;
+    margin-top: -225px;
+    text-align: justify;
+}
+
+/* harry ko short paragraph aurthor ko nam haru vako  */
+.aurthor{
+    margin-left: 41%;
+    background-color: #b9c6b24d;
+    width: 56%;
+    margin-top: 28px;
+    text-align: justify;
+}
+
+/* see more book wala option button */
+.fantasybtn{
+    background-color: #dedbe6;
+    border-radius: 5pc;
+    height: 9%;
+    width: 26%;
+    margin-left: 5%;
+    cursor: pointer;
+}
+.fantasybtn:hover{
+    background-color: #a78f72b3;
+}
+
+
+/*  Categories ma raheko thriller  */
+.thriller{
+    background-color: #0e7ca19d;
+    height: 350px;
+    width: 500px;
+    margin-top: -350px; 
+    margin-left: 64%;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.waterkoimg{
+height: 5%;
+width: 30%;
+box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+margin-left: 5%;
+border-radius: 10px;
+}
+.thrillerkoprg{
+    /* display: flex; */
+    background-color: #48a3c176;
+    margin-left: 43%;
+    justify-content: space-between;
+    margin-top: -45%;
+    width: 55%;
+    text-align: justify;
+}
+.waterkoaurthor{
+    margin-left: 47%;
+    background-color: #48a3c176;
+    width: 45%;
+    margin-top: 30px;
+    text-align: justify;
+}
+.thrillerbtn{
+    background-color: #dedbe6;
+    border-radius: 5pc;
+    height: 9%;
+    width: 26%;
+    margin-left: 6%;
+    cursor: pointer;
+}
+.thrillerbtn:hover{
+    background-color: #B8E0FB;
+}
+
+/*  Categories ma raheko Romance  */
+.romance{
+    background-color: #E1C2D6;
+    height: 350px;
+    width: 500px;
+    margin-left: 488px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    padding: 0;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+/* img of romance */
+.itendswithuskoimg{
+    height: 5%;
+    width: 30%;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    margin-left: 5%;
+    border-radius: 10px;
+}
+/* it ends with us ko long paragraph */
+.romancekoprg{
+    margin-left: 45%;
+    background-color: #d4b6c9;
+    width: 50%;
+    margin-top: -225px;
+    text-align: justify;
+}
+/* it ends with us ko short paragraph aurthor ko nam haru vako  */
+.endsaurthor{
+    margin-left: 41%;
+    background-color: #b9c6b24d;
+    width: 56%;
+    margin-top: 28px;
+    text-align: justify;
+}
+/* see more book wala option button */
+.romancekobtn{
+    background-color: #E7D6C6;
+    border-radius: 5pc;
+    height: 9%;
+    width: 26%;
+    margin-left: 5%;
+    cursor: pointer;
+}
+.romancekobtn:hover{
+    background-color: pink;
+}
+
+/* Fantasy books ko list haru */
+.one{
+    background-color: #B0D7A8;
+    height: 35px;
+    width: 170px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 20px;
+    text-align: center;
+    
+}
+.backgroundoffantasy{
+    /* background-color: linergradient */
+    background: linear-gradient(lightyellow, rgb(156, 241, 156) , lightblue);
+}
+
+/* 1st book */
+.harrykobookwala{
+    margin-top: 5px;
+    /* margin-left: 5px; */
+    margin: auto;
+    /* background-color: #BBD6B8; */
+    height: 400px;
+    width: 600px;
+    /* border-radius: 10px;
+    align-items: center;
+    border: 2px solid rgb(148, 175, 159) */
+}
+.harrypotter{
+    height: 70%;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+.harrykobook{
+    margin-left: 45%;
+    /* background-color: rgba(185, 210, 195, 0.769); */
+    text-align: justify;
+    width: 50%;
+    margin-top: -225px;
+    border-radius: 10px;
+
+}
+.hareadmore{
+    background-color: #dedbe6;
+    border-radius: 5pc;
+    height: 9%;
+    width: 26%;
+    margin-left: 3%;
+    cursor: pointer;
+    margin-top: 95px;
+}
+.hareadmore:hover{
+    background-color: #94AF9F;
+}
+hr{
+    margin-top: 10px;
+    max-height: 200px;
+}
+
+/* 2nd Book */
+.fantasticbeasts{
+    /* background-color: #a3cedf; */
+    margin-top: 5px;
+    /* margin-left: 5px; */
+    margin: auto;
+    height: 400px;
+    width: 600px;
+    /* border-radius: 10px;
+    border: 2px solid rgb(192, 145, 173); */
+}
+.fantastickoimg{
+    height: 70%;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+.fantasticbook{
+    margin-left: 45%;
+    /* background-color: #b9e9fc61; */
+    text-align: justify;
+    width: 50%;
+    margin-top: -225px;
+    border-radius: 10px;
+}
+.fantakoreadmore{
+    background-color: #dedbe6;
+    border-radius: 5pc;
+    height: 9%;
+    width: 26%;
+    margin-left: 26px;
+    cursor: pointer;
+    margin-top: 180px;
+}
+.fantakoreadmore:hover{
+    background-color: #dbbb86;
+}
+hr{
+    margin-top: 10px;
+    max-height: 200px;
+}
+
+
+/* 3rd Book */
+.quidditch{
+    /* background-color: rgb(131, 76, 76); */
+    margin-top: 5px;
+    /* margin-left: 5px; */
+    margin: auto;
+    height: 400px;
+    width: 600px;
+    /* border-radius: 10px;
+    border: 2px solid rgb(43, 27, 37); */
+}
+.quidditchimg{
+    height: 70%;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+.quidditchbook{
+    margin-left: 45%;
+    /* background-color: #6d8ca73e; */
+    text-align: justify;
+    width: 50%;
+    margin-top: -225px;
+    border-radius: 10px;
+}
+.quidditchbtn{
+    background-color: #dedbe6;
+    border-radius: 5pc;
+    height: 9%;
+    width: 26%;
+    margin-left: 26px;
+    cursor: pointer;
+    margin-top: 114px;
+}
+.quidditchbtn:hover{
+    background-color: #19A7CE;
+}
+hr{
+    margin-top: 10px;
+    max-height: 200px;
+}
+
+/* Thriller ko lists haru */
+.thrillerone{
+    background-color: #B0D7A8;
+    height: 35px;
+    width: 170px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.backgroundofthriller{
+    background: linear-gradient(lightblue, rgb(246, 153, 153), lightyellow)
+}
+/* 1st book */
+.intothewaterwala{
+    margin-top: 5px;
+    /* margin-left: 5px; */
+    margin: auto;
+    /* background-color: #0e7ca18a; */
+    height: 400px;
+    width: 600px;
+    /* border-radius: 10px;
+    border: 2px solid rgb(84, 98, 135) */
+
+}
+.intothewaterho{
+    height: 70%;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+.waterrkobook{
+    margin-left: 45%;
+    /* background-color: rgba(127, 206, 240, 0.297); */
+    text-align: justify;
+    width: 50%;
+    margin-top: -225px;
+    border-radius: 10px;
+}
+.watereadmore{
+    background-color: #dedbe6;
+    border-radius: 5pc;
+    height: 9%;
+    width: 26%;
+    margin-left: 4%;
+    cursor: pointer;
+    margin-top: 60px;
+}
+.watereadmore:hover{
+    background-color: #0b125a70;
+}
+hr{
+    margin-top: 10px;
+    max-height: 200px;
+}
+
+/* 2nd thriller book */
+.thegirlonthetrain{
+    /* background-color: #7BBFAE; */
+    margin-top: 5px;
+    /* margin-left: 5px; */
+    margin: auto;
+    height: 400px;
+    width: 600px;
+    /* border-radius: 10px;
+    border: 2px solid #1b9576; */
+}
+.thegirlonthetrainimg{
+    height: 70%;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+.thegirlonthetrainbook{
+    margin-left: 45%;
+    /* background-color: #9eccc0b9; */
+    text-align: justify;
+    width: 50%;
+    margin-top: -225px;
+    border-radius: 10px;
+}
+.girlkoreadmore{
+    background-color: #dedbe6;
+    border-radius: 5pc;
+    height: 9%;
+    width: 26%;
+    margin-left: 26px;
+    cursor: pointer;
+    margin-top: 150px;
+}
+.girlkoreadmore:hover{
+    background-color: #77a9ba;
+}
+hr{
+    margin-top: 10px;
+    max-height: 200px;
+}
+
+/* 3rd book of thriller */
+
+.aslowfire{
+    /* background-color: #e6a186; */
+    margin-top: 5px;
+    /* margin-left: 5px; */
+    margin: auto;
+    height: 400px;
+    width: 600px;
+    /* border-radius: 10px;
+    border: 2px solid rgb(128, 67, 29); */
+}
+.aslowfireimg{
+    height: 70%;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+.aslowfirebook{
+    margin-left: 45%;
+    /* background-color: #6d8ca73e; */
+    text-align: justify;
+    width: 50%;
+    margin-top: -225px;
+    border-radius: 10px;
+}
+.aslowfirebtn{
+    background-color: #dedbe6;
+    border-radius: 5pc;
+    height: 9%;
+    width: 26%;
+    margin-left: 26px;
+    cursor: pointer;
+    margin-top: 114px;
+}
+.aslowfirebtn:hover{
+    background-color: #7d5545;
+}
+hr{
+    margin-top: 10px;
+    max-height: 200px;
+}
+
+/* Romance ko list haru */
+.romanceones{
+    background-color: #B0D7A8;
+    height: 35px;
+    width: 170px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 20px;
+    text-align: center;
+}
+.backgroundofromance{
+    background: linear-gradient(lightpink, lightblue)
+}
+.itendswithus{
+    /* background-color: #E1C2D6; */
+    margin-top: 5px;
+    /* margin-left: 5px; */
+    margin: auto;
+    height: 400px;
+    width: 600px;
+    /* border-radius: 10px;
+    border: 2px solid #9a2c74; */
+}
+.itendswithusimg{
+    height: 70%;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+.itendswithusbook{
+    margin-left: 45%;
+    /* background-color: #dfb6d1d5; */
+    text-align: justify;
+    width: 50%;
+    margin-top: -225px;
+    border-radius: 10px;
+    
+}
+.endswithusreadmore{
+    background-color: #dedbe6;
+    border-radius: 5pc;
+    height: 9%;
+    width: 26%;
+    margin-left: 23px;
+    cursor: pointer;
+    margin-top: 100px;
+}
+.endswithusreadmore:hover{
+    background-color: #c075a6;
+}
+hr{
+    margin-top: 10px;
+    max-height: 200px;
+}
+
+/* 2nd romance book ho */
+.novemeber9{
+    /* background-color: #d237758a; */
+    margin-top: 5px;
+    /* margin-left: 5px; */
+    margin: auto;
+    height: 400px;
+    width: 600px;
+    /* border-radius: 10px;
+    border: 2px solid #3569d3; */
+}
+.novemeber9img{
+    height: 70%;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+.novemeber9book{
+    margin-left: 45%;
+    /* background-color: #e68db18a; */
+    text-align: justify;
+    width: 50%;
+    margin-top: -225px;
+    border-radius: 10px;
+}
+.novemeber9readmore{
+    background-color: #dedbe6;
+    border-radius: 5pc;
+    height: 9%;
+    width: 26%;
+    margin-left: 26px;
+    cursor: pointer;
+    margin-top: 70px;
+}
+.novemeber9readmore:hover{
+    background-color: rgb(234, 139, 155);
+}
+hr{
+    margin-top: 10px;
+    max-height: 200px;
+}
+
+/* 3rd romance book ho  */
+
+.uglylove{
+    /* background-color: #59b9eab3; */
+    margin-top: 5px;
+    /* margin-left: 5px; */
+    margin: auto;
+    height: 400px;
+    width: 600px;
+    /* border-radius: 10px;
+    border: 2px solid #3569d3; */
+}
+.uglyloveimg{
+    height: 70%;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+.uglylovebook{
+    margin-left: 45%;
+    /* background-color: #7ebddc93; */
+    text-align: justify;
+    width: 50%;
+    margin-top: -225px;
+    border-radius: 10px;
+}
+.uglylovereadmore{
+    background-color: #dedbe6;
+    border-radius: 5pc;
+    height: 9%;
+    width: 26%;
+    margin-left: 26px;
+    cursor: pointer;
+    margin-top: 70px;
+}
+.uglylovereadmore:hover{
+    background-color: rgb(124, 124, 186)
+}
+hr{
+    margin-top: 10px;
+    max-height: 200px;
+}
+
+/* reading page start vako */
+.redingharryones{
+    background-color: #B0D7A8;
+    height: 35px;
+    width: 170px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 20px;
+    text-align: center;
+}
+.harrykoread{
+    background-color: white;
+    margin-top: 5px;
+    margin-left: 5px;
+    height: 400px;
+    width: 600px;
+    /* border-radius: 10px;
+    border: 2px solid #9a2c74; */
+}
+.hreadimg{
+    height: 70%;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+.hparg{
+    margin-left: 42%;
+    background-color: white;
+    width: 50%;
+    margin-top: -225px;
+    border-radius: 10px;
+}
+.hkoreturn{
+    background-color: #dedbe6;
+    border-radius: 5pc;
+    height: 9%;
+    width: 26%;
+    margin-left: 26px;
+    cursor: pointer;
+    margin-top: 70px;
+}
+.hkoreturn:hover{
+    background-color: rgb(65, 65, 223)
+}
+
+/* readingfantastic 2nd wala */
+.redingFkoones{
+    background-color: #B0D7A8;
+    height: 35px;
+    width: 170px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 20px;
+    text-align: center;
+}
+.fantacykoread{
+    background-color: white;
+    margin-top: 5px;
+    margin-left: 5px;
+    height: 400px;
+    width: 600px;
+    /* border-radius: 10px;
+    border: 2px solid #9a2c74; */
+}
+.faeadimg{
+    height: 70%;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+.fparg{
+    margin-left: 42%;
+    background-color: white;
+    width: 50%;
+    margin-top: -225px;
+    border-radius: 10px;
+}
+.fkoreturn{
+    background-color: #dedbe6;
+    border-radius: 5pc;
+    height: 9%;
+    width: 26%;
+    margin-left: 26px;
+    cursor: pointer;
+    margin-top: 170px;
+}
+.fkoreturn:hover{
+    background-color: rgb(65, 65, 223)
+}
+
+/* reading quidditch 3rd wala */
+.redingQkoones{
+    background-color: #B0D7A8;
+    height: 35px;
+    width: 170px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 20px;
+    text-align: center;
+}
+.quidditchkoread{
+    background-color: white;
+    margin-top: 5px;
+    margin-left: 5px;
+    height: 400px;
+    width: 600px;
+    /* border-radius: 10px;
+    border: 2px solid #9a2c74; */
+}
+.Qaeadimg{
+    height: 70%;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+.qparg{
+    margin-left: 42%;
+    background-color: white;
+    width: 50%;
+    margin-top: -225px;
+    border-radius: 10px;
+}
+.qkoreturn{
+    background-color: #dedbe6;
+    border-radius: 5pc;
+    height: 9%;
+    width: 26%;
+    margin-left: 26px;
+    cursor: pointer;
+    margin-top: 105px;
+}
+.qkoreturn:hover{
+    background-color: rgb(65, 65, 223)
+}
+
+/* Romance ko 1st it ends with us */
+.redingItoones{
+    background-color: #B0D7A8;
+    height: 35px;
+    width: 170px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 20px;
+    text-align: center;
+}
+.romancekoread{
+    background-color: white;
+    margin-top: 5px;
+    margin-left: 5px;
+    height: 400px;
+    width: 600px;
+    /* border-radius: 10px;
+    border: 2px solid #9a2c74; */
+}
+.iaeadimg{
+    height: 70%;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+.iparg{
+    margin-left: 42%;
+    background-color: white;
+    width: 50%;
+    margin-top: -225px;
+    border-radius: 10px;
+}
+.ikoreturn{
+    background-color: #dedbe6;
+    border-radius: 5pc;
+    height: 9%;
+    width: 26%;
+    margin-left: 26px;
+    cursor: pointer;
+    margin-top: 105px;
+}
+.ikoreturn:hover{
+    background-color: rgb(65, 65, 223)
+}
+
+/* romance ko 2nd Novemember9 */
+.redingNooones{
+    background-color: #B0D7A8;
+    height: 35px;
+    width: 170px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 20px;
+    text-align: center;
+}
+.Novread{
+    background-color: white;
+    margin-top: 5px;
+    margin-left: 5px;
+    height: 400px;
+    width: 600px;
+    /* border-radius: 10px;
+    border: 2px solid #9a2c74; */
+}
+.naeadimg{
+    height: 70%;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+.nparg{
+    margin-left: 42%;
+    background-color: white;
+    width: 50%;
+    margin-top: -225px;
+    border-radius: 10px;
+}
+.nkoreturn{
+    background-color: #dedbe6;
+    border-radius: 5pc;
+    height: 9%;
+    width: 26%;
+    margin-left: 26px;
+    cursor: pointer;
+    margin-top: 75px;
+}
+.nkoreturn:hover{
+    background-color: rgb(65, 65, 223)
+}
+
+/* Romance ko 3rd Ugly Love */
+.redingUgoones{
+    background-color: #B0D7A8;
+    height: 35px;
+    width: 170px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 20px;
+    text-align: center;
+}
+.ugread{
+    background-color: white;
+    margin-top: 5px;
+    margin-left: 5px;
+    height: 400px;
+    width: 600px;
+    /* border-radius: 10px;
+    border: 2px solid #9a2c74; */
+}
+.ugaeadimg{
+    height: 70%;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+.ugparg{
+    margin-left: 42%;
+    background-color: white;
+    width: 50%;
+    margin-top: -225px;
+    border-radius: 10px;
+}
+.ugkoreturn{
+    background-color: #dedbe6;
+    border-radius: 5pc;
+    height: 9%;
+    width: 26%;
+    margin-left: 26px;
+    cursor: pointer;
+    margin-top: 75px;
+}
+.ugkoreturn:hover{
+    background-color: rgb(65, 65, 223)
+}
+
+/* Thriller ko 1st Into the water reading page */
+.redingwaoones{
+    background-color: #B0D7A8;
+    height: 35px;
+    width: 170px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 20px;
+    text-align: center;
+}
+.waread{
+    background-color: white;
+    margin-top: 5px;
+    margin-left: 5px;
+    height: 400px;
+    width: 600px;
+    /* border-radius: 10px;
+    border: 2px solid #9a2c74; */
+}
+.waaeadimg{
+    height: 70%;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+.waparg{
+    margin-left: 42%;
+    background-color: white;
+    width: 50%;
+    margin-top: -225px;
+    border-radius: 10px;
+}
+.wakoreturn{
+    background-color: #dedbe6;
+    border-radius: 5pc;
+    height: 9%;
+    width: 26%;
+    margin-left: 24px;
+    cursor: pointer;
+    margin-top: 63px;
+}
+.wakoreturn:hover{
+    background-color: rgb(65, 65, 223)
+}
+
+/* thriller ko 2nd reading page the girl on the train */
+.redinggioones{
+    background-color: #B0D7A8;
+    height: 35px;
+    width: 170px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 20px;
+    text-align: center;
+}
+.giread{
+    background-color: white;
+    margin-top: 5px;
+    margin-left: 5px;
+    height: 400px;
+    width: 600px;
+    /* border-radius: 10px;
+    border: 2px solid #9a2c74; */
+}
+.giaeadimg{
+    height: 70%;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+.giparg{
+    margin-left: 42%;
+    background-color: white;
+    width: 50%;
+    margin-top: -225px;
+    border-radius: 10px;
+}
+.gikoreturn{
+    background-color: #dedbe6;
+    border-radius: 5pc;
+    height: 9%;
+    width: 26%;
+    margin-left: 24px;
+    cursor: pointer;
+    margin-top: 130px;
+}
+.gikoreturn:hover{
+    background-color: rgb(65, 65, 223)
+}
+
+
+/* thriller ko 3rd reading page slow burning fire */
+.redingsloones{
+    background-color: #B0D7A8;
+    height: 35px;
+    width: 170px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 20px;
+    text-align: center;
+}
+.slread{
+    background-color: white;
+    margin-top: 5px;
+    margin-left: 5px;
+    height: 400px;
+    width: 600px;
+    /* border-radius: 10px;
+    border: 2px solid #9a2c74; */
+}
+.slaeadimg{
+    height: 70%;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+.slparg{
+    margin-left: 42%;
+    background-color: white;
+    width: 50%;
+    margin-top: -225px;
+    border-radius: 10px;
+}
+.slkoreturn{
+    background-color: #dedbe6;
+    border-radius: 5pc;
+    height: 9%;
+    width: 26%;
+    margin-left: 24px;
+    cursor: pointer;
+    margin-top: 100px;
+}
+.slkoreturn:hover{
+    background-color: rgb(65, 65, 223)
+}
+.bxs-user{
+    font-size: 2rem;
+    color: #000000;
+    margin-left: 2000%;
+}
+
+/* Fantacy ko PDF ho hai */
+.fextra1{
+    background-color: #7d5545;
+    height: 655px;
+    width: 836px;
+    margin-top: -29%;
+    margin-left: 42%;
+    display: none;
+}
+.fextra2{
+    background-color: #7d5545;
+    height: 655px;
+    width: 836px;
+    margin-top: -29%;
+    margin-left: 42%;
+    display: none;
+}
+.fextra3{
+    background-color: #7d5545;
+    height: 655px;
+    width: 836px;
+    margin-top: -29%;
+    margin-left: 42%;
+    display: none;
+}
+
+/* Thriller ko PDF ho hai */
+.textra1{
+    background-color: #7d5545;
+    height: 655px;
+    width: 836px;
+    margin-top: -29%;
+    margin-left: 42%;
+    display: none;
+}
+.textra2{
+    background-color: #7d5545;
+    height: 655px;
+    width: 836px;
+    margin-top: -29%;
+    margin-left: 42%;
+    display: none;
+}
+.textra3{
+    background-color: #7d5545;
+    height: 655px;
+    width: 836px;
+    margin-top: -29%;
+    margin-left: 42%;
+    display: none;
+}
+
+/* Romance PDF ko ho hai */
+.rextra1{
+    background-color: #7d5545;
+    height: 655px;
+    width: 836px;
+    margin-top: -29%;
+    margin-left: 42%;
+    display: none;
+}
+.nextra2{
+    background-color: #7d5545;
+    height: 655px;
+    width: 836px;
+    margin-top: -29%;
+    margin-left: 42%;
+    display: none;
+}
+.uextra3{
+    background-color: #7d5545;
+    height: 600px;
+    width: 836px;
+    margin-top: -29%;
+    margin-left: 42%;
+    display: none;
+
+}
+  

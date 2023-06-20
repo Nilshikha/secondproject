@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/FrontStyle.CSS">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Fantatic Reading Page</title>
+</head>
+<body>
+            <!-- navigation bar -->
+            <div class="landingnav">
+              <nav>
+                  <ul>
+                    <li class="center"><a href="#"></i>Bookworms</a> <i class='bx bxs-user'></i></li>
+                   
+                  </ul>
+                </nav>
+            </div>
+
+          <div>
+            <p class="redingFkoones">Fantasy Book</p>
+          </div>
+
+          <!-- next div for book ra tesko content -->
+          <div class="fantacykoread" onclick="togglePDF()">
+            <img class="faeadimg" src="../pictures/Fantastic_Beasts_And_Where_To_Find_Them_-_JK_Rowling-thumbnail.jpg" alt="Fantatic">
+            <p class="fparg">"A glance through Muggle art and literature of the Middle Ages reveals that many of the creatures they now believe to be imaginary were then known to be real."</p>
+
+            <a href="Fantasylst.html"><button class="fkoreturn">Return</button></a>
+
+          </div>
+
+
+        <!-- PDF ko ho hai -->
+          
+          <div class="fextra2" id="pdfObject">
+            <object data="../Pdf/Fantastic beast.pdf" type="application/pdf" width="100%" height="655px"></object>
+          </div>
+
+</body>
+<!-- js -->
+<script>
+  function togglePDF() {
+    var pdfObject = document.getElementById("pdfObject");
+    if (pdfObject.style.display === "none") {
+      pdfObject.style.display = "block";
+    } else {
+      pdfObject.style.display = "none";
+    }
+  }
+  </script>
+</html>
